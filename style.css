@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .jumbotron {
+    flex: 1;
+  }
+  
+  footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .custom-btn {
+    background-color: #c18072;
+    border-color: #c18072;
+  }
+  
+  .custom-btn:hover {
+    background-color: #b16c66;
+    border-color: #b16c66;
+  }
+  
